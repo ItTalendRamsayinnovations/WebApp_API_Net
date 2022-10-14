@@ -10,5 +10,6 @@ namespace WebApp.API
         }
 
         public DbSet<Student> Student { get; set; }
+        public DbSet<Career> Career { get; set; }
     }
 }
